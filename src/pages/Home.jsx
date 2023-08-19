@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
+
+import FormConverter from '../components/FormConverter/FormConverter';
 
 const Home = () => {
-  return (
-    <div>
-      Home Page
-    </div>
-  )
-}
+  return <FormConverter />;
+};
 
-export default Home
+export default Home;
